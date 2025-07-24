@@ -23,6 +23,7 @@
 /* header styles */
 .header{
     background-image: url(photos/Hero-bg.png);
+    height: 600px;
 }
 /* nav styles */
 nav{
@@ -40,11 +41,31 @@ nav{
     font-weight: bold;
     font-size: 65px;
     color: #252432;
-    margin: 0 auto;
+    margin: 150px auto 34px;
 }
 .banner-content{
     text-align: center;
 }
-.btn-center{
-    margin-top: 37px;
+/* section styles */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 145px;
+
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.action-subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    color: #25243280;
+    width: 517px;
+}
+.action-banner-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
